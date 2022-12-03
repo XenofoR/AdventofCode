@@ -18,5 +18,3 @@
 
 (println (reduce + play1))
 (println (reduce + play2))
-
-

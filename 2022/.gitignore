@@ -13,3 +13,5 @@ pom.xml.asc
 /project.clj
 /.idea
 /doc
+.DS_Store
+../.DS_Store
