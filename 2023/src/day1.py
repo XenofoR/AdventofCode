@@ -4,14 +4,7 @@ import functools
 def add_together(x):
     if(len(x) == 0):
         return 0
-    first = x[0]
-    last = x[len(x)-1]
-    if(not first.isnumeric()):
-        first = last
-    elif(not last.isnumeric()):
-        last = first
-    
-    return first + last
+    return x[0] + x[-1]
 
 def is_numeric(x):
     return x.isnumeric()
